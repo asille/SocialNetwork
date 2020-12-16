@@ -24,9 +24,6 @@ namespace BussinesLogic.Concrete
         {
             _cassandraUser.CreatePost(session);
         }
-        public void NewComment(ISession session)
-        {
-            _cassandraUser.AddComment(session);
-        }
+        
     }
 }
