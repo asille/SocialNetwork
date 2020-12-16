@@ -25,6 +25,7 @@ namespace BL.Concrete
 
         private readonly IUserDALNeo4j _userNeo4j;
 
+
         public User(IUserDAL user, IPostDAL post, ICommentDAL comment, ILikeDAL like, IUserDALNeo4j userDALNeo4J)
         {
             _user = user;
